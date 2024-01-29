@@ -26,6 +26,7 @@ bool solve(int board[4][4]);    //Solve Sudoku Game
 int main(int argc, char** argv) {
     //Set a random seed
     srand(static_cast<unsigned int>(time(0)));
+    
     //Declare all variables
     int board[4][4] = {{0,0,0,0},
                        {0,0,0,0},
