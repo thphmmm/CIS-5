@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
- * Author: mlehr
- * Created on July 6th, 2023, 10:16 AM
+ * Author: Thu Pham
+ * Created on January 26th, 2023, 10:16 PM
  * Purpose:  Inflation/Savings Calculator
  */
 
