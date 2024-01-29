@@ -38,10 +38,10 @@ int main(int argc, char** argv) {
     cout<<endl;
     
     if(solve(board)) {
-       cout<<"Solved Sudoku:"<<endl;
+       cout<<"Solved:"<<endl;
        prntBrd(board);
     } else {
-       cout<<"No solution exists."<< endl;
+       cout<<"No solution"<< endl;
     }
 
     //Process or Map solutions
