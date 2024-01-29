@@ -32,6 +32,7 @@ int main(int argc, char** argv) {
                        {0,0,0,0},
                        {0,0,0,0},
                        {0,0,0,0}};
+    
     //Initialize all variables
     
     //Process or Map solutions
