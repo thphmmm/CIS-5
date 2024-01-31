@@ -30,12 +30,12 @@ int main(int argc, char** argv) {
                         {0, 2, 0, 0}};
     
     //Initialize all variables
-    cout << "Sudoku Puzzle:" << endl;
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j) {
-            cout << puzzle[i][j] << " ";
+    cout<<"Sudoku Puzzle:"<<endl;
+    for(int i = 0; i < 4; ++i) {
+        for(int j = 0; j < 4; ++j) {
+            cout<<puzzle[i][j]<<" ";
         }
-        cout << endl;
+        cout<<endl;
     }
 
     //Process or Map solutions
