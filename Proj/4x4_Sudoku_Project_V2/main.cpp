@@ -17,32 +17,25 @@ using namespace std;
 //Global Constants - Math,Physics,Chemistry,Conversions
 
 //Function Prototypes
-void prntBrd(int board[4][4]);  //Print Board
-bool valid(int board[4][4], int row, int col, int num); //Valid Number
-bool EmpLctn(int board[4][4], int& row, int& col);  //Empty Location on Board
-bool solve(int board[4][4]);    //Solve Sudoku Game
 
 //Program Execution Begins Here
 int main(int argc, char** argv) {
     //Set a random seed
     srand(static_cast<unsigned int>(time(0)));
-    
-    //Declare all variables
-    int board[4][4] = {{0,0,0,0},
-                       {0,0,0,0},
-                       {0,0,0,0},
-                       {0,0,0,0}};
+
+    // Declare all variables
+    int puzzle[4][4] = {{3, 0, 0, 0},
+                        {0, 0, 2, 0},
+                        {0, 0, 0, 3},
+                        {0, 2, 0, 0}};
     
     //Initialize all variables
-    cout<<"Sudoku Puzzle:"<<endl;
-    prntBrd(board);
-    cout<<endl;
-    
-    if(solve(board)) {
-       cout<<"Solved:"<<endl;
-       prntBrd(board);
-    } else {
-       cout<<"No solution"<< endl;
+    cout << "Sudoku Puzzle:" << endl;
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4; ++j) {
+            cout << puzzle[i][j] << " ";
+        }
+        cout << endl;
     }
 
     //Process or Map solutions
