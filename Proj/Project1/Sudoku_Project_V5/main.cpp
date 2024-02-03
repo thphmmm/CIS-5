@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
         }
     }
     
-    // Display the Sudoku puzzle with a box
+    //Display the Sudoku puzzle with a box
     cout<<"\nSudoku Puzzle:"<<endl;
     cout<<" ---------------------"<<endl;
     for(int i = 0; i < 9; ++i) {
